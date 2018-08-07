@@ -1,0 +1,34 @@
+{
+  "name": "es6-tutorial",
+  "version": "1.0.0",
+  "description": "Start the tutorial [here](http://ccoenraets.github.io/es6-tutorial).",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccoenraets/es6-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccoenraets/es6-tutorial/issues"
+  },
+  "homepage": "https://github.com/ccoenraets/es6-tutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "http-server": "^0.11.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
